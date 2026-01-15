@@ -1,0 +1,15 @@
+--index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://pypi.org/simple
+--find-links https://data.pyg.org/whl/torch-2.8.0+cpu.html
+--only-binary=:all:
+
+pandas
+numpy==1.26.4
+networkx
+scikit-learn
+torch==2.8.0
+torch-scatter
+torch-sparse
+torch-cluster
+torch-geometric
+tqdm
